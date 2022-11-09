@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/GAD170.2_Dimopoulos_Luka/Scenes/StartScreen.unity
+    guid: 1d54e2d1bc19af5418f016d8198834b8
+  - enabled: 1
+    path: Assets/GAD170.2_Dimopoulos_Luka/Scenes/FishingGame.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/GAD170.2_Dimopoulos_Luka/Scenes/EndScreen.unity
+    guid: 1e0cc145c3424f145b11a948ca4cedaa
   m_configObjects: {}

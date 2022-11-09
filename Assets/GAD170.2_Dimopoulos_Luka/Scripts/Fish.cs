@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace LukaDimopoulos
 {
+    enum Species { bettaFish, piranhaFish, koiFish, guppyFish, surgeonFish, tunaFish, oarFish }
     public class Fish : MonoBehaviour
     {
         public string species;
@@ -24,18 +25,11 @@ namespace LukaDimopoulos
         void Start()
         {
             Stats();
-            speciesArray[0] = "Betta";
-            speciesArray[1] = "Piranha";
-            speciesArray[2] = "Koi";
-            speciesArray[3] = "Guppy";
-            speciesArray[4] = "SurgeonFish";
-            speciesArray[5] = "Tuna";
-            speciesArray[6] = "Oarfish";
         }
 
         public void Stats()
         {
-            string randomSpecies = speciesArray[Random.Range(0, species.Length)];
+            string randomSpecies = speciesArray[Random.Range(0, speciesArray.Length)];
 
             Debug.Log(randomSpecies);
 
